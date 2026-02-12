@@ -11,12 +11,14 @@
 
 <header class="main-header">
   <div class="header-inner">
-    <a href="/" class="logo">NEXUM STRATEGIC ARCHIVE</a>
+    <a href="{{ '/' | relative_url }}" class="logo">
+      NEXUM STRATEGIC ARCHIVE
+    </a>
     <nav>
-      <a href="/">Inicio</a>
-      <a href="#">Archive</a>
-      <a href="#">Methodology</a>
-      <a href="#">Dossiers</a>
+      <a href="{{ '/' | relative_url }}">Inicio</a>
+      <a href="{{ '/archive.html' | relative_url }}">Archive</a>
+      <a href="{{ '/methodology.html' | relative_url }}">Methodology</a>
+      <a href="{{ '/dossiers.html' | relative_url }}">Dossiers</a>
     </nav>
   </div>
 </header>

@@ -1,7 +1,12 @@
 ---
-layout: post
-title: "MLL-2026-001 | Foundational Node Declaration"
-reading_time: 6
+layout: default
+title: "MLL-2026-001 | Declaración del Nodo Fundacional"
+date: 2026-02-12
+author: Mario Luis López
+categories: [institutional]
+tags: [nexus, intelligence, forensic-analysis, strategic-archive]
+lang: en/es
+permalink: /institutional/mll-2026-001/
 ---
 
 ## Executive Abstract

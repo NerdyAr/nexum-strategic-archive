@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<main class="container post-container">
+  <article>
+    <h1>{{ page.title }}</h1>
+
+    <div class="post-meta">
+      {{ page.date | date: "%d %B %Y" }}
+      {% if page.reading_time %}
+        | {{ page.reading_time }} min lectura
+      {% endif %}
+    </div>
+
+    <hr>
+
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </article>
+</main>

@@ -1,5 +1,7 @@
 title: Nexum Strategic Archive
 description: A Collaborative Strategic Intelligence Node
+baseurl: "/nexum-strategic-archive"
+url: "https://nerdyar.github.io"
 author: Mario Luis López
 markdown: kramdown
 theme: null

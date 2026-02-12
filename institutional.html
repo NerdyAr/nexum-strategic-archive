@@ -1,0 +1,23 @@
+---
+layout: default
+title: Institutional Documents
+permalink: /institutional/
+---
+
+<main class="container">
+  <h1>Institutional Documents</h1>
+
+  <section class="post-list">
+    {% for post in site.categories.institutional %}
+      <article class="post-card">
+        <div class="post-date">
+          {{ post.date | date: "%d %B %Y" }}
+        </div>
+        <h2>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+        <p>{{ post.excerpt }}</p>
+      </article>
+    {% endfor %}
+  </section>
+</main>

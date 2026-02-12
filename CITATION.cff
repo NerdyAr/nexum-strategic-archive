@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Nexum Strategic Archive"
+message: >
+  If you use this repository in academic work, please cite it following
+  APA 7th Edition (or later) standards as indicated below.
+type: dataset
+authors:
+  - family-names: "López"
+    given-names: "Mario Luis"
+license: "CC-BY-NC-SA-4.0"
+version: "1.0"
+date-released: 2026-02-12
+url: "https://github.com/NerdyAr/nexum-strategic-archive"
+
+preferred-citation:
+  type: report
+  authors:
+    - family-names: "López"
+      given-names: "Mario Luis"
+  title: "Nexum Strategic Archive: A Collaborative Strategic Intelligence Node"
+  year: 2026
+  institution: "Nexum Strategic Archive"
+  note: >
+    Cite according to APA 7th Edition (or later). Ensure inclusion of
+    repository URL and access date when required.

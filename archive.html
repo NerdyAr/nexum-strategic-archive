@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: Archive
@@ -8,12 +9,11 @@ permalink: /archive/
   <h1>Archive</h1>
 
   {% for post in site.posts %}
-    <article class="post-card">
-      <div class="post-date">
-        {{ post.date | date: "%d %B %Y" }}
-      </div>
+    <article>
       <h2>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
       </h2>
       <p>{{ post.excerpt }}</p>
     </article>
